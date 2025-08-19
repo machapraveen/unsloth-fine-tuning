@@ -5,36 +5,41 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Stars](https://img.shields.io/github/stars/machapraveen/unsloth-fine-tuning?style=for-the-badge)](https://github.com/machapraveen/unsloth-fine-tuning/stargazers)
+[![Issues](https://img.shields.io/github/issues/machapraveen/unsloth-fine-tuning?style=for-the-badge)](https://github.com/machapraveen/unsloth-fine-tuning/issues)
 
 </div>
 
 ## 📖 Overview
 
-Unsloth Fine-Tuning is a comprehensive implementation showcasing advanced techniques and modern development practices. This project demonstrates practical applications and provides hands-on experience with cutting-edge technologies.
+Efficient model fine-tuning using Unsloth framework with Ollama deployment
+
+This project demonstrates practical implementation of advanced concepts and provides hands-on experience with modern technologies and best practices.
 
 ## ✨ Key Features
 
-- 🔥 **Professional Implementation**: Industry-standard coding practices and architecture
-- 🛠️ **Modern Tech Stack**: Utilizing the latest tools and frameworks
-- 📊 **Comprehensive Documentation**: Detailed guides and examples
-- 🧪 **Well-Tested**: Robust testing and quality assurance
-- 🚀 **Production Ready**: Optimized for performance and scalability
+- 🔥 **Efficient fine-tuning**
+- 🔥 **Model optimization**
+- 🔥 **Ollama integration**
+- 🔥 **Custom datasets**
 
 ## 🛠️ Technology Stack
 
+- **Python**
 - **Jupyter**
+- **Unsloth**
+- **Ollama**
+- **LLM Fine-tuning**
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
 - Python 3.8 or higher
+- Jupyter Notebook (for .ipynb files)
 
-- Jupyter Notebook
+
 
 ### Installation
 
@@ -46,8 +51,7 @@ Unsloth Fine-Tuning is a comprehensive implementation showcasing advanced techni
 
 2. **Install dependencies**
    ```bash
-   pip install -e .
-   
+   pip install -r requirements.txt
    ```
 
 3. **Run the application**
@@ -60,33 +64,36 @@ Unsloth Fine-Tuning is a comprehensive implementation showcasing advanced techni
 ```
 unsloth-fine-tuning/
 ├── README.md
-├── requirements.txt
 ├── Fine-Tuning Unsloth.ipynb
+├── Modelfile
+├── people_data.json
+├── requirements.txt
 └── ...
 ```
 
 ## 🎯 Usage
 
-This project provides a comprehensive implementation that can be used for:
-
-- Learning and educational purposes
-- Professional development and production use
-- Research and experimentation
-- Integration with other systems
-
 ### Basic Usage
 
-```python
-# Example usage pattern
-# Specific implementation details available in the source code
-```
+This project provides comprehensive functionality for efficient model fine-tuning using unsloth framework with ollama deployment. 
+
+### Advanced Features
+
+The implementation includes advanced capabilities and optimizations for professional use cases.
 
 ## 📈 Performance
 
-- Optimized algorithms and data structures
-- Efficient memory usage
-- Scalable architecture
-- Fast execution times
+- Optimized for efficiency and scalability
+- Modern architecture patterns
+- Best practices implementation
+- Comprehensive error handling
+
+## 🧪 Testing
+
+Run tests to verify functionality:
+```bash
+python -m pytest tests/
+```
 
 ## 🤝 Contributing
 
